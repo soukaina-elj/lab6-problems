@@ -1,0 +1,5 @@
+**Random insertions and deletions:** ArrayList is faster because LinkedList needs to go through its nodes to find the position, while ArrayList accesses it directly.
+
+**Sequential insertions and deletions:** LinkedList is faster because it only updates links, while ArrayList needs to shift elements.
+
+**Random access:** ArrayList is faster because it accesses elements directly, while LinkedList has to go through the nodes.
